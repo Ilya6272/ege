@@ -14,7 +14,6 @@ for N in range(11, 10_000):
         R = '11'+ R
     R = int(R, 3)
     if R > 100:
-        ans.append(R)
 
 print(min(ans))
 

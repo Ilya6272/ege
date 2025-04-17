@@ -15,6 +15,8 @@ for s1 in range(1, 100):
             ans.append(s1 + s2)
 
 print(min(ans))
+print('20)',[s for s in range(1, 42) if f(5, s, 3) and not f(5, s, 1)])
+print('20)',[s for s in range(1, 25) if f(22, s, 4) and not f(22, s, 2)])
 
 
 
